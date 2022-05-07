@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.1"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "jarallax": "^2.0.3",
+    "object-fit-images": "^3.2.4",
+    "yarn": "^1.22.18"
+  }
+}
