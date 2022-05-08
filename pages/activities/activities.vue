@@ -4,9 +4,7 @@
 <script setup></script>
 
 <script>
-export default {
-  layout: "wip",
-};
+export default {};
 </script>
 
 <style></style>
