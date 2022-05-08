@@ -3,10 +3,16 @@
     <nav>
       <ul class="nav-bar">
         <li class="item"><a class="task-item" href="#">Home</a></li>
-        <li class="item"><a class="task-item" href="#">Activities</a></li>
-        <li class="item"><a class="task-item" href="#">Blog</a></li>
-        <li class="item"><a class="task-item" href="#">Pricing</a></li>
-        <li class="item"><a class="task-item" href="#">Contact Us</a></li>
+        <li class="item">
+          <a class="task-item" href="/activities/activities">Activities</a>
+        </li>
+        <li class="item"><a class="task-item" href="/blog/blog">Blog</a></li>
+        <li class="item">
+          <a class="task-item" href="/others/pricing">Pricing</a>
+        </li>
+        <li class="item">
+          <a class="task-item" href="/others/contact">Contact Us</a>
+        </li>
       </ul>
     </nav>
   </div>
