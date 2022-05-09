@@ -18,7 +18,7 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Tapestry&display=swap");
-:root() {
+:root {
   --primary-font: "Ubuntu", sans-serif;
   --primary-weight: 400;
 }

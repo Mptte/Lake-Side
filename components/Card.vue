@@ -16,7 +16,7 @@
           aspernatur asperiores voluptate? Officiis.
         </p>
       </div>
-      <img class="image" src="chaliyar.jpg" alt="chaliyar" />
+      <img class="image" src="/chaliyar.jpg" alt="chaliyar" />
     </div>
     <div class="card">
       <div class="text">
@@ -33,7 +33,7 @@
           aspernatur asperiores voluptate? Officiis.
         </p>
       </div>
-      <img class="image" src="chaliyar.jpg" alt="chaliyar" />
+      <img class="image" src="/chaliyar.jpg" alt="chaliyar" />
     </div>
   </div>
 </template>
