@@ -3,7 +3,7 @@
   <div class="card-wrapper">
     <div class="card">
       <div class="text">
-        <h1 class="header-text">Bringing life to Chaliyar</h1>
+        <h1 class="header-text">blah blah blah</h1>
         <p class="paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
           eligendi earum aut natus atque et eius doloremque corrupti aliquam
@@ -58,7 +58,7 @@ export default {};
   margin: 2ch;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.103);
   border: 1px solid rgb(214, 212, 212);
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0);
 }
 
 .card:hover {

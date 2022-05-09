@@ -1,18 +1,34 @@
 <template>
-  <NavbarLite></NavbarLite>
-  <h1 class="Heading">Lakeside</h1>
-  <h1
-    class="Heading"
-    style="
-      font-family: 'Amatic SC', cursive;
-      font-weight: 700;
-      margin-bottom: 3ch;
-    "
-  >
-    Watersports
-  </h1>
+  <div class="landing">
+    <NavbarLite></NavbarLite>
+    <div class="landingtext">
+      <h1 class="Heading">Lakeside</h1>
+      <h1
+        class="Heading"
+        style="
+          font-family: 'Amatic SC', cursive;
+          font-weight: 700;
+          margin-bottom: 3ch;
+        "
+      >
+        Watersports
+      </h1>
+    </div>
+    <div class="custom-shape-divider-top-1652099664">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </div>
 
-  <div class="container"><card></card></div>
+  <div class="container">
+    <card></card>
+  </div>
 </template>
 
 <style>
@@ -52,6 +68,7 @@ div {
   flex-direction: column;
   justify-content: center;
   background-color: rgba(240, 248, 255, 0);
+  position: relative;
 }
 
 .Heading {
@@ -63,19 +80,52 @@ div {
   font-size: 5em;
   margin: 5vh;
   line-height: 3vh;
+  text-shadow: 1px 2px rebeccapurple;
 }
 
-html {
-  background-image: url(bg.jpg);
+.landing {
+  background-image: url(bg1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  min-width: 100vw;
+  padding-bottom: 40vh;
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {
   .container {
     margin-inline: 10vw;
   }
+
+  .landing {
+    min-height: 50vh;
+  }
+}
+
+.landingtext {
+  margin: auto;
+}
+
+.custom-shape-divider-top-1652099664 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: transparent;
+}
+
+.custom-shape-divider-top-1652099664 svg {
+  fill: white;
+}
+
+.shape-fill {
+  stroke: transparent;
+  stroke-width: 0px;
 }
 </style>
