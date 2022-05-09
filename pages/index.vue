@@ -14,16 +14,6 @@
         Watersports
       </h1>
     </div>
-    <div class="custom-shape-divider-top-1652099664">
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
-      </svg>
-    </div>
   </div>
 
   <div class="container">
@@ -92,6 +82,7 @@ div {
   min-width: 100vw;
   padding-bottom: 40vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,30 +93,24 @@ div {
   .landing {
     min-height: 50vh;
   }
+
+  .Heading {
+    line-height: 2ch;
+  }
 }
 
 .landingtext {
   margin: auto;
 }
 
-.custom-shape-divider-top-1652099664 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-  background-color: transparent;
+body::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
 }
-
-.custom-shape-divider-top-1652099664 svg {
-  fill: white;
+body::-webkit-scrollbar-track {
+  background: rgba(252, 216, 216, 0.685); /* color of the tracking area */
 }
-
-.shape-fill {
-  stroke: transparent;
-  stroke-width: 0px;
+body::-webkit-scrollbar-thumb {
+  background-color: burlywood; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
 }
 </style>
