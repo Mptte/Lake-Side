@@ -44,7 +44,7 @@ div {
 }
 
 .container {
-  margin-inline: 15vw;
+  margin-inline: 17vw;
   align-items: center;
   align-content: center;
   align-self: center;

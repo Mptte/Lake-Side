@@ -43,6 +43,7 @@ export default {};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&family=Ubuntu:wght@300&display=swap");
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -72,11 +73,18 @@ export default {};
 
 .header-text {
   text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin: 01ch;
 }
 
 .paragraph {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
   text-align: center;
   margin: 3ch;
+  border: 3px azure solid;
+  border: 1px solid rgb(214, 212, 212);
+  padding: 1ch;
 }
 
 .image {
