@@ -1,24 +1,25 @@
 <template>
   <div class="landing">
-    <NavbarLite></NavbarLite>
-    <div class="landingtext">
-      <h1 class="Heading">Lakeside</h1>
-      <h1
-        class="Heading"
-        style="
-          font-family: 'Amatic SC', cursive;
-          font-weight: 700;
-          margin-bottom: 3ch;
-        "
-      >
-        Watersports
-      </h1>
+    <div class="landing-blur-bg"></div>
+    <div style="filter: none">
+      <NavbarLite></NavbarLite>
+      <div class="landingtext">
+        <h1 class="Heading">Lakeside</h1>
+        <h1
+          class="Heading"
+          style="
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            margin-bottom: 3ch;
+          "
+        >
+          Watersports
+        </h1>
+      </div>
     </div>
   </div>
 
-  <div class="container">
-    <card></card>
-  </div>
+  <div class="container"></div>
 </template>
 
 <style>
@@ -74,15 +75,7 @@ div {
 }
 
 .landing {
-  background-image: url(bg1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  min-width: 100vw;
-  padding-bottom: 40vh;
   position: relative;
-  overflow-x: hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -92,6 +85,7 @@ div {
 
   .landing {
     min-height: 50vh;
+    position: relative;
   }
 
   .Heading {
@@ -101,6 +95,20 @@ div {
 
 .landingtext {
   margin: auto;
+}
+
+.landing-blur-bg {
+  background-image: url(bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-bottom: 40vh;
+  position: absolute;
+  overflow-x: hidden;
+  filter: blur(3px);
+  z-index: -1;
 }
 
 body::-webkit-scrollbar {
