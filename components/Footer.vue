@@ -2,12 +2,9 @@
   <div class="bar">
     <nav>
       <ul class="nav-bar">
-        <li class="item"><a class="task-item" href="/">Home</a></li>
+        <li class="item"><a class="task-item" href="#">Home</a></li>
         <li class="item">
           <a class="task-item" href="/activities/activities">Activities</a>
-        </li>
-        <li class="item">
-          <a class="task-item" href="/others/">Virtual Tour</a>
         </li>
         <li class="item"><a class="task-item" href="/blog/blog">Blog</a></li>
         <li class="item">
@@ -22,13 +19,17 @@
 </template>
 
 <script>
-export default {};
+export default defineComponent({
+  props: {},
+});
 </script>
 
-<style scoped>
+<style>
 .bar {
   overflow: hidden;
   margin: 0;
+  position: absolute;
+  bottom: 0px;
 }
 
 .nav-bar {

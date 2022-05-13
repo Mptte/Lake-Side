@@ -1,25 +1,25 @@
 <template>
   <div class="landing">
     <div class="landing-blur-bg"></div>
-    <div style="filter: none">
-      <NavbarLite></NavbarLite>
-      <div class="landingtext">
-        <h1 class="Heading">Lakeside</h1>
-        <h1
-          class="Heading"
-          style="
-            font-family: 'Amatic SC', cursive;
-            font-weight: 700;
-            margin-bottom: 3ch;
-          "
-        >
-          Watersports
-        </h1>
-      </div>
+    <NavbarLite></NavbarLite>
+    <div class="landingtext">
+      <h1 class="Heading">Lakeside</h1>
+      <h1
+        class="Heading"
+        style="
+          font-family: 'Amatic SC', cursive;
+          font-weight: 700;
+          margin-bottom: 3ch;
+        "
+      >
+        Watersports
+      </h1>
     </div>
   </div>
 
-  <div class="container"></div>
+  <div class="container">
+    <card></card>
+  </div>
 </template>
 
 <style>
@@ -94,7 +94,7 @@ div {
 }
 
 .landingtext {
-  margin: auto;
+  align-content: center;
 }
 
 .landing-blur-bg {
@@ -103,7 +103,7 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
   padding-bottom: 40vh;
   position: absolute;
   overflow-x: hidden;

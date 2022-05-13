@@ -1,10 +1,9 @@
 <template>
-  <div>Work in progress</div>
+  <card></card>
 </template>
-<script setup></script>
 
 <script>
 export default {};
 </script>
 
-<style scoped></style>
+<style></style>

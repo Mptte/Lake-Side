@@ -3,7 +3,7 @@
   <div class="card-wrapper">
     <div class="card">
       <div class="text">
-        <h1 class="header-text">blah blah blah</h1>
+        <h1 class="header-text">Bringing life to chaliyar</h1>
         <p class="paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
           eligendi earum aut natus atque et eius doloremque corrupti aliquam
@@ -20,7 +20,7 @@
     </div>
     <div class="card">
       <div class="text">
-        <h1 class="header-text">Hello</h1>
+        <h1 class="header-text">Kayaking, Sailing, Scuba Diving <br /></h1>
         <p class="paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
           eligendi earum aut natus atque et eius doloremque corrupti aliquam
@@ -33,13 +33,13 @@
           aspernatur asperiores voluptate? Officiis.
         </p>
       </div>
-      <img class="image" src="/chaliyar.jpg" alt="chaliyar" />
+      <img class="image" src="/scuba.jpg" alt="chaliyar" />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default defineComponent({});
 </script>
 
 <style>
@@ -58,7 +58,7 @@ export default {};
   margin: 2ch;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.103);
   border: 1px solid rgb(214, 212, 212);
-  background-color: rgba(240, 248, 255, 0);
+  background-color: rgb(240, 248, 255);
 }
 
 .card:hover {
