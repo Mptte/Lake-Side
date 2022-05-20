@@ -45,11 +45,13 @@ export default {};
   margin-inline: 2vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0.5ch;
 }
 
 .item:hover {
   transform: translateX(2px) translateY(2px);
   transition: all 0.1s;
+  text-decoration: underline;
 }
 
 .task-item {
