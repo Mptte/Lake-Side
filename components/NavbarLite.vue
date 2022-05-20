@@ -7,7 +7,7 @@
           <a class="task-item" href="/activities/activities">Activities</a>
         </li>
         <li class="item">
-          <a class="task-item" href="/others/">Virtual Tour</a>
+          <a class="task-item" href="/others/vtour">Virtual Tour</a>
         </li>
         <li class="item"><a class="task-item" href="/blog/blog">Blog</a></li>
         <li class="item">
@@ -29,6 +29,7 @@ export default {};
 .bar {
   overflow: hidden;
   margin: 0;
+  position: relative;
 }
 
 .nav-bar {

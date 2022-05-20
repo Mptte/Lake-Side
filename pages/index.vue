@@ -19,6 +19,7 @@
 
   <div class="container">
     <card></card>
+    <card></card><card></card>
   </div>
 </template>
 
@@ -105,9 +106,9 @@ div {
   min-height: 100vh;
   min-width: 100%;
   padding-bottom: 40vh;
-  position: absolute;
+  position: fixed;
   overflow-x: hidden;
-  filter: blur(3px);
+  filter: blur(0px);
   z-index: -1;
 }
 

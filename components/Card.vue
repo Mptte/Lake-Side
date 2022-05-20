@@ -18,23 +18,6 @@
       </div>
       <img class="image" src="/chaliyar.jpg" alt="chaliyar" />
     </div>
-    <div class="card">
-      <div class="text">
-        <h1 class="header-text">Kayaking, Sailing, Scuba Diving <br /></h1>
-        <p class="paragraph">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          eligendi earum aut natus atque et eius doloremque corrupti aliquam
-          neque expedita debitis a repudiandae laudantium quos porro nihil in,
-          beatae inventore! Dolore, fugit. Velit ratione a fuga deserunt vitae
-          quod? Fugit ipsa qui eius mollitia quia dolores sapiente deserunt
-          amet, autem modi. Amet quod saepe temporibus, repudiandae voluptates
-          minus animi ad eaque dolore nemo. Ducimus vel est ipsa quisquam
-          accusantium adipisci iste mollitia maiores, corrupti quibusdam,
-          aspernatur asperiores voluptate? Officiis.
-        </p>
-      </div>
-      <img class="image" src="/scuba.jpg" alt="chaliyar" />
-    </div>
   </div>
 </template>
 
