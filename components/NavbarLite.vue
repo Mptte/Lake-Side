@@ -7,7 +7,7 @@
           <a class="task-item" href="/activities/activities">Activities</a>
         </li>
         <li class="item">
-          <a class="task-item" href="/others/vtour">Virtual Tour</a>
+          <a class="task-item" href="/vtour/vtour">Virtual Tour</a>
         </li>
         <li class="item"><a class="task-item" href="/blog/blog">Blog</a></li>
         <li class="item">
@@ -43,7 +43,7 @@ export default {};
   text-shadow: 2px 2px rgba(0, 0, 0, 0.116);
   text-align: center;
   list-style: none;
-  margin-inline: auto;
+  margin-inline: 1em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 0.5ch;
@@ -75,5 +75,11 @@ export default {};
   color: black;
   background-color: transparent;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    margin-inline: auto;
+  }
 }
 </style>

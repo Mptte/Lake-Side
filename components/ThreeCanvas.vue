@@ -8,6 +8,9 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 let clicked;
 export default {
+  props: {
+    img: String,
+  },
   mounted() {
     const container = document.getElementById("scene");
     const scene = new THREE.Scene();
@@ -32,18 +35,13 @@ export default {
       });
       sphereGeometry.scale(-1, 1, 1);
       var mesh = new THREE.Mesh(sphereGeometry, sphereMaterial);
+      mesh.name = "sphere";
       scene.add(mesh);
       mesh.position.set(0, 0, 0);
     });
     const controls = new OrbitControls(camera, renderer.domElement);
-    document.addEventListener("click", () => {
-      let clicked = true;
-    });
 
     //controls.update() must be called after any manual changes to the camera's transform
-    while ((clicked = false)) {
-      camera.rotation.x = -1;
-    }
     camera.position.set(0, 20, 100);
     controls.maxZoom = 5;
     controls.enableZoom = false;
@@ -54,6 +52,7 @@ export default {
       renderer.render(scene, camera);
       controls.update();
       renderer.setSize(window.innerWidth, window.innerHeight);
+      scene.getObjectByName("sphere").rotateY(0.001);
     }
 
     animate();
