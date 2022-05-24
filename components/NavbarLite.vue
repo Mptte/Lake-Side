@@ -43,7 +43,7 @@ export default {};
   text-shadow: 2px 2px rgba(0, 0, 0, 0.116);
   text-align: center;
   list-style: none;
-  margin-inline: 2vw;
+  margin-inline: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 0.5ch;
