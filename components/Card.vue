@@ -3,26 +3,24 @@
   <div class="card-wrapper">
     <div class="card">
       <div class="text">
-        <h1 class="header-text">Bringing life to chaliyar</h1>
+        <h1 class="header-text">{{ title }}</h1>
         <p class="paragraph">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          eligendi earum aut natus atque et eius doloremque corrupti aliquam
-          neque expedita debitis a repudiandae laudantium quos porro nihil in,
-          beatae inventore! Dolore, fugit. Velit ratione a fuga deserunt vitae
-          quod? Fugit ipsa qui eius mollitia quia dolores sapiente deserunt
-          amet, autem modi. Amet quod saepe temporibus, repudiandae voluptates
-          minus animi ad eaque dolore nemo. Ducimus vel est ipsa quisquam
-          accusantium adipisci iste mollitia maiores, corrupti quibusdam,
-          aspernatur asperiores voluptate? Officiis.
+          {{ paragraph }}
         </p>
       </div>
-      <img class="image" src="/chaliyar.jpg" alt="chaliyar" />
+      <img class="image" :src="imageUrl" alt="image" />
     </div>
   </div>
 </template>
 
 <script>
-export default defineComponent({});
+export default defineComponent({
+  props: {
+    paragraph: String,
+    title: String,
+    imageUrl: String,
+  },
+});
 </script>
 
 <style>

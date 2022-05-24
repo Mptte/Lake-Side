@@ -10,11 +10,16 @@
     "nuxt": "3.0.0-rc.1"
   },
   "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1648802546.c9880dc",
+    "@types/three": "^0.140.0",
     "add": "^2.0.6",
+    "axios": "^0.27.2",
     "jarallax": "^2.0.3",
     "node-sass": "^7.0.1",
     "object-fit-images": "^3.2.4",
     "sass-loader": "^12.6.0",
+    "three": "^0.140.2",
+    "three-orbit-controls": "^82.1.0",
     "yarn": "^1.22.18"
   }
 }

@@ -18,8 +18,25 @@
   </div>
 
   <div class="container">
-    <card></card>
-    <card></card><card></card>
+    <card
+      paragraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+          distinctio harum molestiae sapiente possimus nesciunt quo incidunt
+          repellat aperiam, architecto quam. Soluta quo officia ex laboriosam
+          eius earum deleniti distinctio. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Delectus, quaerat? Pariatur
+          perspiciatis magni nostrum dolore sunt, non sed iure praesentium
+          architecto possimus voluptatum minus, eveniet hic laudantium
+          cupiditate obcaecati! Molestias? Nam dolore aliquid, ipsa impedit
+          tenetur, vitae reprehenderit, iure unde cumque velit ex explicabo amet
+          deleniti quae. Eligendi perferendis odit amet esse, nemo culpa,
+          architecto, vero eius aut exercitationem ipsum? Accusamus sed
+          inventore officiis dignissimos id. Odio aperiam, atque amet, minima
+          nam hic, aliquid voluptatem ea repellendus commodi laborum! Explicabo
+          ad iusto consectetur culpa eum repudiandae quos neque eligendi
+          molestiae."
+      title="Coming soon!"
+      imageUrl="chaliyar.jpg"
+    ></card>
   </div>
 </template>
 
