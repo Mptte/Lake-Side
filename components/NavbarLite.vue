@@ -14,7 +14,7 @@
           <a class="task-item" href="/others/pricing">Pricing</a>
         </li>
         <li class="item">
-          <a class="task-item" href="/others/contact">Contact Us</a>
+          <a class="task-item" href="https://github.com/TheChineseMuppet/Lake-Side">CodeBase</a>
         </li>
       </ul>
     </nav>
